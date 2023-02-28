@@ -15,5 +15,11 @@ The Schemas in the down describe how SOAP WebServer works.
 
 ![image](https://user-images.githubusercontent.com/67378945/221981410-129bdc0e-bcd3-4663-b216-58067ec34810.png)
 
+# After Creating your own soap webservice:
+
+you can test the methods of webservice with SoapUi application .
+
+![image](https://user-images.githubusercontent.com/67378945/221995851-39993103-09cb-4203-9e80-e589c2993302.png)
+
 
 
