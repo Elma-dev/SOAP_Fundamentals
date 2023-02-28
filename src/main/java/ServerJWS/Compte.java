@@ -4,6 +4,14 @@ public class Compte {
     private int code;
     private double solde;
 
+    @Override
+    public String toString() {
+        return "Compte{" +
+                "code=" + code +
+                ", solde=" + solde +
+                '}';
+    }
+
     public Compte(int code, double solde) {
         this.code = code;
         this.solde = solde;

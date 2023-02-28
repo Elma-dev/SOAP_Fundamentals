@@ -18,7 +18,7 @@ public class BankService {
     }
 
     @WebMethod(operationName="clientComptes")
-    List<Compte> getComptes(){
+    public List<Compte> getComptes(){
         return List.of(
                 new Compte((int)(Math.random()*10),Math.random()*9000),
                 new Compte((int)(Math.random()*10),Math.random()*9000),
